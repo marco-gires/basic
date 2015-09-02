@@ -30,6 +30,11 @@ setup(
     packages=find_packages(
         exclude=['tests']
     ),
+    entry_points={
+      'console_scripts': [
+          'test=python-cheetah:main',
+      ],
+    },
     # TODO - license, url
 
 )

@@ -3,4 +3,4 @@ __version__ = '0.1dev'
 
 
 def main():
-    print('Hello World ! This is your first cheetah')
+    print('Hello World ! This is your python-cheetah package')

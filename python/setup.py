@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from python import python_cheetah
+import python_cheetah
 
 
 __author__ = 'marc.henri'

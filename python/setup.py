@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-import python_cheetah
+import git_test
 
 
 __author__ = 'marc.henri'
@@ -9,8 +9,8 @@ __author__ = 'marc.henri'
 # TODO - dependencies packages
 
 setup(
-    name='python_cheetah',
-    version=python_cheetah.__version__,
+    name='git_test',
+    version=git_test.__version__,
     description='Python-Cheetah package',
     long_description='Python Cheetah SDK package',
     author='marc.henri',

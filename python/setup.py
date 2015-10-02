@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
-import python_cheetah
+
+from python import python_cheetah
+
 
 __author__ = 'marc.henri'
 
@@ -23,10 +25,6 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         'Programming Language :: Python :: 3.4',
     ],
-    install_requires={
-        'rabbitpy==0.25.0',
-        'pytz==2014.10'
-    },
     packages=find_packages(
         exclude=['tests']
     ),

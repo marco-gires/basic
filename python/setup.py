@@ -30,8 +30,7 @@ setup(
     ),
     entry_points={
       'console_scripts': [
-          'python_cheetah = python_cheetah:main',
-          'python_cheetah_2 = python_cheetah:main',
+          'git_test = git_test:main',
       ],
     },
     # TODO - license, url
